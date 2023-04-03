@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 75px;
+}
+
+.material-symbols-outlined{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: orange;
+    font-size: 35px;
+}
+
+.espacamento-top{
+    margin-top: 10px
+}
+
+#div-titulo{
+    margin-left: 10%;
+    margin-top: 25px;
+    text-justify: auto;
+}
+
+#div-titulo hr{
+    height: 1.5px;
+    width: 70%;
+    color: orange
+}
+
+#div-login{
+    margin-left: 17%;
+    margin-right: 17%;
+    height: 300px;
+    margin-top: 25px;
+    background-color: #F9F9F9;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 3%;
+}
+
+#login-button{
+    margin-top: 20px
+}
+
+#div-login small{
+    color: gray;
+}
+
+#modal-registro{
+    width: 25%;
+    background-color: #F9F9F9;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 3%;
+    animation-name: modal-registro;
+    animation-duration: 700ms;
+}
+
+#modal-registro div small{
+    color: gray;
+    margin-top: 0px
+}
+
+#modal-registro hr{
+    margin-top: 5px;
+    height: 0.5px;
+}
+
+@keyframes modal-registro{
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
